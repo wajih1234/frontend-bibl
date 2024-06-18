@@ -1,0 +1,89 @@
+body {
+    height: 100vh; /* Adjusts height to fit the viewport */
+    margin: 0; /* Removes default body margin */
+    font-family: Arial, sans-serif; /* Uses a common font for better compatibility */
+    background-color: #f4f4f4; /* Changes background color */
+}
+nav {
+    height: 60px; /* Hauteur fixe pour la barre de navigation */
+}
+
+nav ul {
+    display: flex; /* Utilisation de Flexbox */
+    justify-content: space-around; /* Alignement homogène des éléments horizontalement */
+    align-items: center; /* Centre verticalement les éléments */
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px   5px ;
+    font-size: 19px;
+    text-align: center;
+    text-transform:uppercase;
+}
+
+.liv {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}
+
+.liv > div {
+    margin:  10 20px; /* Adds margin around each book section */
+    padding:    20px; /* Adds padding inside each book section */
+    border: 1px solid #ccc; /* Adds border to create separation */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds box shadow for depth */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.liv img {
+margin-top: 10px;
+}
+.dropdown button{
+    background-color: hsl(0, 0%, 25%);
+    border: none;
+    cursor: pointer;
+    font-size: 19px;
+    color: aliceblue;
+    text-transform:uppercase;
+
+
+}
+.dropdown a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+
+
+}
+.dropdown .content{
+    display: none;
+    position: relative;
+    background-color: hsl(0, 0%, 80%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+
+}
+.dropdown:hover .content{
+    display: block;
+}
+.content1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+   
+
+}
+.tolearn{
+    text-decoration: none;
+}

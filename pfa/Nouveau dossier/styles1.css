@@ -1,0 +1,22 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/01/06/26/open-book-1428428_1280.jpg);
+    background-size: cover; /* Ensures the background image covers the entire body */
+    background-position: center; /* Centers the background image */
+    height: 100vh; /* Sets the height of the body to the full viewport height */
+    margin: 0; /* Removes default margin */
+    display: flex; /* Uses flexbox layout */
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
+}
+form{
+    font-size: 18px;
+    color: antiquewhite;
+    position: relative;
+    width: 80%; /* Sets the width of the form */
+    max-width: 400px; /* Limits the maximum width of the form */
+    padding: 20px; /* Adds padding inside the form */
+    background-color: rgba(0, 0, 0, 0.7); /* Adds a semi-transparent background color to the form */
+    border-radius: 10px; /* Adds rounded corners to the form */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adds a shadow effect to the form */
+    text-align: center; /* Centers the text inside the form */
+}

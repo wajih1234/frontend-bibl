@@ -1,0 +1,35 @@
+.t2{
+    font-kerning: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    width: 100%;
+    
+    }
+    .t2 td,
+.t2 th{
+   border: solid black; 
+padding: 8px;
+text-transform: uppercase;
+background-color: beige;
+}
+.re{
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    align-items: center;
+}
+.re input[type="text"],
+.re input[type="submit"] {
+    display: block; /* Make both input and submit button appear as block elements */
+    margin-bottom: 5px; /* Add some space between input and submit button */
+}
+.re .no{
+    background-color: blue;
+}
+body{
+    background-image: url("https://en.idei.club/uploads/posts/2023-06/1687075794_en-idei-club-p-library-blur-dizain-instagram-1.jpg");
+}
+thead{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.su{
+    background-color:bisque;
+}

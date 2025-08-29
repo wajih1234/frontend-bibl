@@ -1,0 +1,41 @@
+
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Change the background color as needed */
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/01/06/26/open-book-1428428_1280.jpg);
+}
+
+.container {
+    background-color: #ccc; /* Gray background */
+    border-radius: 50%; /* Circular shape */
+    padding: 40px; /* Increased padding for bigger circle */
+    max-width: 800px; /* Increased max-width for bigger circle */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form label, .login-form input {
+    margin: 10px 0;
+}
+
+.submit-button {
+    background-color: aqua;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+h2{
+    color:azure;
+}
